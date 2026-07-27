@@ -1,7 +1,26 @@
 aid: intro
 name: Intro
-description: Intro is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Intro is a consumer marketplace, founded in 2020 by Raad Mobrem and headquartered
+  in Los Angeles, that connects people with vetted, in-demand experts for one-on-one
+  advice over scheduled video calls. Experts span career and business, interior design
+  and home decor, style and beauty, health and wellness, fitness and nutrition, astrology,
+  and more, with per-session pricing set by each expert. Intro also lets creators and
+  professionals monetize their audience by publishing a bookable profile. The company
+  raised a $10M seed round led by Andreessen Horowitz (a16z) with participation from
+  Seven Seven Six. Intro operates as a consumer web and mobile product; it does not
+  publish a public developer API, SDKs, or a developer portal.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5eb5f7f78b63035f53364ccc/6153877264d4e451c5521bbb_Intro%20Logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/intro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,52 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2020'
+x-headquarters: Los Angeles, CA
+x-founder: Raad Mobrem
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Marketplace
+- Experts
+- Video Calls
+- Consumer
+- Booking
+- Creator Economy
+- Scheduling
 apis: []
+common:
+- type: DomainSecurity
+  url: security/intro-domain-security.yml
+- type: Website
+  url: https://intro.co/
+- type: About
+  url: https://intro.co/about
+- type: Support
+  url: https://intro.co/faq
+- type: SignUp
+  url: https://intro.co/signup
+- type: Login
+  url: https://intro.co/login
+- type: Blog
+  url: https://intro.co/blog
+- type: TermsOfService
+  url: https://intro.co/terms
+- type: PrivacyPolicy
+  url: https://intro.co/policy
+- type: Twitter
+  url: https://twitter.com/useintro
+- type: Instagram
+  url: https://www.instagram.com/useintro/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
