@@ -9,6 +9,17 @@ description: Intro is a consumer marketplace, founded in 2020 by Raad Mobrem and
   raised a $10M seed round led by Andreessen Horowitz (a16z) with participation from
   Seven Seven Six. Intro operates as a consumer web and mobile product; it does not
   publish a public developer API, SDKs, or a developer portal.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
