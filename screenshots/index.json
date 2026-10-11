@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "intro",
+    "captured_at": "2026-10-11T190003",
+    "source_url": "https://intro.co/",
+    "source_type": "Website",
+    "file": "intro-2026-10-11T190003.png",
+    "bytes": 1030697,
+    "capture": "playwright-local"
+  }
+]
